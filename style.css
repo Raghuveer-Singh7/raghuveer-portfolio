@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+html, body{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-nav{
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    background-color: #C0CFF3;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+#left-nav-div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+#right-nav-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+#right-nav-div ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#right-nav-div li{
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 1.5vh 2vw;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in;
+}
+
+a:hover , a , a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-color:  #5f8bf1;
+    border: 1px solid  white;
+    padding: calc(0px) calc(2vw);
+    cursor: pointer;
+}
+
+#main-div{
+    scroll-margin-top: calc(16px + 3vh);
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    height: 70vh;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 10vh;
+    border-radius: 10px;
+    background-color: #F9FFFF;
+}
+
+#main-div-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main-div-right{
+    width: 40%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+}
+
+.text-para{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: black;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.name {
+    color:#5f8bf1;
+}
+
+#element{
+    color:#5f8bf1;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#buttonbar{
+    margin-top: 3vh;
+    display: flex;
+}
+
+#btn {
+    background-color: #C0CFF3;
+    color: black;
+    border-radius: 10px;
+    padding: 1.5vh 2vw;
+    font-size: 0.8em;
+    margin-right: 2vw;
+    border: 1px solid transparent; /* Ensure consistent border width */
+    transition: all 0.2s ease-in;
+}
+
+#btn:hover {
+    background-color: #5f8bf1;
+    border-color: rgb(78, 3, 255); /* Change border color on hover */
+    padding: calc(1.5vh) calc(2vw); /* Ensure consistent padding */
+}
+
+#profileimage{
+    height: 100%;
+    width: 80%;
+}
+
+#middleabout{
+    margin-top: 0;
+    scroll-margin-top: calc(16px + 3vh);
+    height: auto;
+    width: 100%;
+    background-color: #C0CFF3;
+    border-radius: 10px;
+}
+
+#about1{
+    margin: 5vh 0;
+    display: flex;
+    flex-direction: column;
+}
+#about1 i{
+    text-align: center;
+}
+
+#about1 p{
+    margin-left: 62%;
+}
+
+#about2{
+    margin: 5vh 2vw;
+}
+#about2 ul li{
+    list-style-type: none;
+    padding: 0px 1vw;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+}
+
+#middleproject{
+    scroll-margin-top: calc(16px + 3vh);
+    height: auto;
+    width: 100%;
+    background-color:#F9FFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#projectheading{
+        height: 10vh;
+        line-height: 10vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-left: 2vw;
+        color: #5f8bf1 ;
+}
+
+.p12 {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-bottom: 5vh;
+}
+
+.ptext{
+    width: 60%;
+}
+
+.p12img{
+    width: 30%;
+    padding: 10px;
+    box-shadow:  5px 0px  5px #5f8bf1;
+}
+
+.p12:nth-child(4) {
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+footer {
+    width: 100%;
+    height: auto; 
+    background-color: lightgray;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-contact {
+    width: 50%;
+    height: auto;
+    margin:3vh 0 3vh 2vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-contact p{
+}
+
+#connectlinks {
+}
+
+#cl {
+    margin-right: 1.5vw;
+    font-size: 20px;
+}
+
+#cl:visited{
+    text-decoration: none;
+}
+
+#footercredit {
+    border-radius: 10px;
+    height:auto;
+    padding: 2vh 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

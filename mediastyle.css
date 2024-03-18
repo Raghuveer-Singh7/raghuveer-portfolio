@@ -1,0 +1,53 @@
+@media screen and (max-width:700px){
+
+    #left-nav-div{
+        width: auto;
+        margin-left: 2vw;
+        padding: 1.5vh 0;
+    }#singh{
+        display: none;
+    }
+    #right-nav-div{
+        display: none;
+    }
+    #main-div{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+    }
+    #main-div-left{
+        width: 100%;
+        margin-left: 2vw;
+    }
+    #btn{
+        margin-right: 3vw;
+    }
+    #main-div-right{
+        width: 70%;
+        height: auto;
+        align-self: flex-end;
+        display: flex;
+        justify-content: end;
+    }
+    #profileimage{
+        clip-path: inset(20px 0 0 0);
+        margin-top: -20%;
+    }
+    .p12{
+        margin-left: 2vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .ptext{
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+    .p12img{
+        width: 100%;
+    }
+    #footercredit{
+        padding: 1.5vh 0;
+    }
+    
+}
